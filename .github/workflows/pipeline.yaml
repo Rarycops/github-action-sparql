@@ -24,7 +24,7 @@ jobs:
           endpoint: 'dbpedia.org/sparql'
           graph_uri: 'http://dbpedia.org'
           format: 'application/json'
-          path: ''
+          path: 'delete'
 
       - name: update files and push to branch
         if: always()
